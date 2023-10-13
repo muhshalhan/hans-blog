@@ -1,6 +1,6 @@
-baseURL: "https://hansproject.github.io"
+baseURL: "https://hansproject.netlify.app"
 languageCode: "en-us"
-title: "Shalhan Assalam - Data Analyst"
+title: "Han's Project"
 theme: hugo-profile
 
 outputs:
@@ -128,18 +128,18 @@ params:
     button:
       enable: true
       name: "Resume"
-      url: "#"
+      url: "https://drive.google.com/file/d/1zKSCtk6ymkfW_Guknwnbu92BV8k6MzHu/view?usp=sharing"
       download: false
-      newPage: false
+      newPage: true
     socialLinks:
       fontAwesomeIcons:
         - icon: fab fa-github
-          url: https://example.com
-        - icon: fab fa-twitter
-          url: https://example.com
+          url: https://github.com/muhshalhan
+        - icon: fab fa-linkedin
+          url: https://www.linkedin.com/in/muhammad-shalhan-assalam-b42973200/
       customIcons:
-        - icon: /fav.png
-          url: "https://example.com"
+        - icon: /images/tableau-icon.svg
+          url: "https://public.tableau.com/app/profile/muhammad.shalhan.assalam"
 
   # About
   about:
@@ -147,21 +147,24 @@ params:
     title: "About Me"
     image: "/images/me1.png"
     content: |-
-      Aspiring data analyst eager to translate numbers into strategic insights.
+      Hello, I'm Muhammad Shalhan Assalam, a hard-working and dedicated data analyst who is passionate about uncovering insights through deep analysis of details.
 
-      Strong academic foundation in economics complemented by hands-on analytics training. Experienced in the full data analysis cycle - from collection and cleaning to analysis, visualization and reporting. Skilled in distilling key trends and transforming complex data into compelling insights and recommendations.
+      I’ve worked in various economic research and business projects handling end-to-end data analysis projects. I gained valuable experience in generating high-quality insight and recommendations both from academic and business perspectives.
 
-      I'm seeking new opportunities where I can use my skills to help your organization make better decisions with data.
+      My strong experience in data-driven economics and business, ignited my passion for data, leading me to accomplish the Full Stack Data Analytics program at RevoU. I’m proficient in conducting end-to-end data analysis using Spreadsheets, SQL, Python, Tableau, and Looker Studio, accompanied by strong analytical thinking, problem-solving abilities, and effective communication capabilities.
+
+      With a solid foundation of skills and experience, I believe I can be a valuable data analyst to support your company’s data analytics project. Currently, I'm open to any work opportunities, especially as Business Intelligence, Data Analyst, or Data Engineer. Feel free to send a message to my LinkedIn profile or mail to muh.shalhan@gmail.com
     skills:
       enable: true
       title: "Here are a few tools and technique I've been working recently:"
       items:
         - "Python (Pandas, Numpy, Seaborn, Scikitlearn)"
-        - "SQL (BigQuery)"
+        - "SQL (BigQuery, PostgreSQL)"
         - "Tabelau & Looker Studio"
-        - "Data Analysis" 
+        - "Data Analysis (Exploratory Data Analysis, Exploratory Data Visualization)" 
         - "Statistical Modelling (Cross-section, Time-series, Panel, Prospensity Model)"
         - "Statistical Software (STATA, EVIEWS)"
+        - "Soft Skills: Analytical Thinking, Attention to Detail, Communication"
 
   # Experience
   experience:
@@ -289,7 +292,7 @@ params:
     items:
       - title: Best Student FSDA Section Seoul Batch 6 RevoU 2023
         content: I solved all problems with optimal solution.
-        url: https://example.com
+        #url: https://example.com
         image: /images/achievment.jpg
       - title: Python Competition Winner Section Seoul Batch 6 RevoU 2023
         content: Developed a product using Artificial Intelligence.
@@ -359,7 +362,7 @@ params:
     enable: true
     # title: "Custom Name"
     content: My inbox is always open. Whether you have a question or just want to say hi, I’ll try my best to get back to you!
-    email: gurusabarisha@gmail.com
+    email: muh.shalhan@gmail.com
     btnName: Mail me
     # formspree:
     #   enable: true # `contact.email` value will be ignored
@@ -375,11 +378,11 @@ params:
       enable: true
       disableFeaturedImage: false
     socialNetworks:
-      github: https://github.com
-      linkedin: https://linkedin.com
-      twitter: https://twitter.com
-      instagram: https://instagram.com
-      facebook: https://facebook.com
+      github: https://github.com/muhshalhan
+      linkedin: https://www.linkedin.com/in/muhammad-shalhan-assalam-b42973200/
+      #twitter: https://twitter.com
+      instagram: https://www.instagram.com/muh.shalhan/
+      #facebook: https://facebook.com
 
   # List pages like blogs and posts
   listPages:
