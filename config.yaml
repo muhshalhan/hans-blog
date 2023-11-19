@@ -179,7 +179,16 @@ params:
           enable: false
           name: "View the project"
           url: "https://example.com"
-        content: "Apprenticeship with project based learning for accelerating my Data Analyst career."
+        info:
+          enable: true
+          content: Apprenticeship with project based learning for accelerating my Data Analyst career.
+        content: |
+          Activities:
+
+          1. Formulate the problem, conduct hypothesis scenario, determine the target stakeholders, and analyze Zurich Insurance's relevant business metric and product development.
+          2. Perform data gathering from databases also data cleaning by removing outliers, checking missing value, and transforming data to ensure quality and reability.
+          3. Perform statistical modeling in the form of customer segmentation, regression models, A/B testing, benefit-cost analysis, and propensity modeling to the application of machine learning.
+          4. Exploring insights from the data that has been processed and narrated through interactive dashboard with convenient product metrices, strategy, and feature prioritisation to technical and non-technical stakeholders.
 
       - job: "Assistant Research and Lecturer"
         company: "Airlangga university"
